@@ -494,7 +494,38 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
-    .what-i-do-container, .skill-resume, .footer-connect {
+
+    /* heading point section start */
+
+.header{
+    background-image: none;
+}
+.introduction{
+    flex-direction: column;
+    padding: 10px;
+}
+.image2 img{
+    width: 100%;
+}
+
+    /* heading point section end */
+
+    /* about information section start */
+
+    .about {
+        padding: 0;
+    }
+    .about-info-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* about information section end */
+
+    /* what i do section start */
+
+    .what-i-do-container,
+    .skill-resume {
         flex-direction: column;
     }
 
@@ -506,28 +537,44 @@ textarea {
     .what-i-do-details {
         margin: 0;
     }
-    .skill-resume{
+
+    .skill-resume {
         text-align: center;
     }
 
     .my-resume {
         width: 367px;
     }
-    .border{
+
+    .border {
         width: 355px;
     }
 
-    .btn-hover.color-7{
+    .btn-hover.color-7 {
         width: 100%;
         margin: 0;
     }
 
-    
-    /* footer section start */
+    /* what i do section end */
 
-    .lets-connect{
+
+    /* footer section start */
+    .footer-connect {
+        height: 866px;
+        flex-direction: column-reverse;
+    }
+
+    .lets-connect {
         width: 355px;
         text-align: center;
+    }
+
+    .lets-message h2 {
+        text-align: center;
+    }
+
+    .glow-on-hover {
+        margin-left: 65px;
     }
 
     /* footer section end */
