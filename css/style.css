@@ -494,7 +494,7 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
-    .what-i-do-container {
+    .what-i-do-container, .skill-resume, .footer-connect {
         flex-direction: column;
     }
 
@@ -506,9 +506,8 @@ textarea {
     .what-i-do-details {
         margin: 0;
     }
-
-    .skill-resume {
-        flex-direction: column;
+    .skill-resume{
+        text-align: center;
     }
 
     .my-resume {
@@ -523,4 +522,13 @@ textarea {
         margin: 0;
     }
 
+    
+    /* footer section start */
+
+    .lets-connect{
+        width: 355px;
+        text-align: center;
+    }
+
+    /* footer section end */
 }
